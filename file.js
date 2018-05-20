@@ -35,7 +35,6 @@ function init() {
     document.querySelector('.player-0-panel').classList.add('active');
 }
 
-init();
 
 document.querySelector('.btn-roll').addEventListener('click', function () {
     if (gamePlaying) {
